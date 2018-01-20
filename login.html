@@ -1,61 +1,87 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>html and css study</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-<<<<<<< HEAD
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./asset/main.css">
+    <link rel="stylesheet" type="text/css" href="./asset/style.css">
+    <link rel="stylesheet" type="text/css" href="./asset/login.css">
     <script src="main.js"></script>
 </head>
 
 <body>
-    <header>
-        <a href="html_css.html"><img src="nowwaitinglogo.png" width="100px" float="left"></a>
-    </header>
-    <nav>
-        <h2>
+    <div class="container">
+        <header>
+            <a href="html_css.html">
+                <img src="./img/nowwaitinglogo.png" alt="logo">
+            </a>
+        </header>
+
+        <nav>
             <ul>
-                <li id="first"><a href="companyinfo.html">Company Information</a></li>
-                <li id="second"><a href="products.html">Products</a></li>
-                <li id="second"><a href="references.html">References</a></li>
-                <li id="second"><a href="contact.html">Contact Us</a></li>
-                <li id="third"><a href="login.html">Log In</a></li>
+                <li class="menu-item">
+                    <a href="companyinfohtml">Company Information</a>
+                </li>
+                <li class="menu-item">
+                    <a href="products.htl">Products</a>
+                </li>
+                <li class="menu-item">
+                    <a href="references.html">References</a>
+                </li>
+                <li class="menu-item">
+                    <a href="contact.html">Contact Us</a>
+                </li>
+                <li class="menu-item">
+                    <a href="login.html">Log In</a>
+                </li>
             </ul>
-        </h2><ol></ol>
-    </nav>
-=======
-    <script src="main.js"></script>
-</head>
+        </nav>
+        <div class="login-box">
+            <form action="#">
+                <h2>Login</h2>
+                <div> 
+                    <span> ID </span>
+                    <input type="text">
+                </div>
+                <div>
+                    <span>PASSWORD</span>
+                    <input type="text">
+                </div>
+                <div>
+                    button
+                </div>
+                <p>
+                    <u>
+                        <a href="registration.html">처음이신가요?</a>
+                    </u>
+                    <a href="authentication.html">
+                        <u>아이디/패스워드를 잊어버리셨나요?</u>
+                    </a>
+                </p>
+            </form>
 
-<link rel="stylesheet" type="text/css" href="style.css">
+            <!-- <form>
+                <h1>로그인</h1>
 
-<header>
-    <a href="html_css.html"><img src="nowwaitinglogo.png" width="100px" float="left"></a>
-</header>
-
-<nav>
-    <h2>
-        <ul>
-            <li id="first"><a href="companyinfo.html">Company Information</a></li>
-            <li id="second"><a href="products.html">Products</a></li>
-            <li id="second"><a href="references.html">References</a></li>
-            <li id="second"><a href="contact.html">Contact Us</a></li>
-            <li id="third"><a href="login.html">Log In</a></li>
-        </ul>
-    </h2><ol></ol>
-</nav>
-
-<body>
->>>>>>> 77a379a912f1e4b806eddec31ca2703b93976687
-    <form >
-        <h1>로그인</h1>
-        <br> ID <input type="text" id="ID" required>
-        <br> Password <input type="password" id="PW" required>
-        <br> <button type="button" onclick="location.href"='mainpage.html'>로그인</button> 
-        <br> <button type="button" onclick="location.href"='login.html'>취소</button>
-        <br> <u><a href="registration.html">처음이신가요?</a></u> <a href="authentication.html"><u>아이디/패스워드를 잊어버리셨나요?</u></a>
-    </form>
+                <br> ID
+                <input type="text" id="ID" required>
+                <br> Password
+                <input type="password" id="PW" required>
+                <br>
+                <button type="button" onclick="location.href"='mainpage.html'>로그인</button>
+                <br>
+                <button type="button" onclick="location.href"='login.html'>취소</button>
+                <br>
+                <u>
+                    <a href="registration.html">처음이신가요?</a>
+                </u>
+                <a href="authentication.html">
+                    <u>아이디/패스워드를 잊어버리셨나요?</u>
+                </a>
+            </form> -->
+        </div>
+    </div>
 </body>

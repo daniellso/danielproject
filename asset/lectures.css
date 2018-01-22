@@ -1,5 +1,19 @@
 .second-nav ul li {
     text-decoration-color: blue;
-    border-right: anto solid darksalmon
+}
 
+.second-nav ul {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    width: 200px;
+    height: 600px;
+    float: left;
+}
+
+.container img {
+    float: right;
+}
+
+article {
+    float: left;
 }
